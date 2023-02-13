@@ -1,0 +1,44 @@
+.form-container{
+	display: flex;
+	flex-direction: column;
+	padding: 0% 20%;
+	gap: 15px;
+	margin-bottom: 30px;
+}
+
+.date-line{
+	display: flex;
+	flex-grow: 1;
+	gap: 15px;
+}
+
+.header{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.intro{
+	text-align: center;
+}
+
+.game-title{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.game-description{
+	padding-bottom: 15px;
+	text-align: justify;
+}
+
+@media (max-width:986px){
+	.form-container{
+		padding: 0% 10%;
+	}
+}
+
+@media (max-width:450px){
+	.form-container{
+		padding: 0% 5%;
+	}
+}
