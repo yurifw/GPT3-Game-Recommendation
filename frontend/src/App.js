@@ -75,7 +75,7 @@ function App() {
 	return (
 		<div className="form-container">	
 			<h1 className='header'>Game Recommendations Powered by GPT3</h1>
-			<p  className='intro'>This is a simple app to showcase Chat GPT3. Fill the form below and select a range for the release year, type the genre you want to play (rpg, first person shooter etc...), select the platform where you play and if you want, you can also give it a list of a few games you like to get a nice suggestion :) </p>
+			<p  className='intro'>This is a simple app to showcase Chat GPT3. You can check the <a href="https://github.com/yurifw/GPT3-Game-Recommendation" target="_blank" rel='noreferrer'>source code here</a>. Fill the form below and select a range for the release year, type the genre you want to play (rpg, first person shooter etc...), select the platform where you play and if you want, you can also give it a list of a few games you like to get a nice suggestion :) </p>
 			<LocalizationProvider dateAdapter={AdapterDateFns}>
 				<div className='date-line'>
 					<DatePicker
